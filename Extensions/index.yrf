@@ -3,7 +3,7 @@
     <!-- 
         Yopad Extensions Index file
         #####################
-        Add your extension below, use this example: <PackageRef Url="https://raw.githubusercontent.com/Haltroy/Yopad/main/Extensions/[Your Name]/[App Name]/[App Name].htupdate" />
+        Add your extension below, use this example: <PackageRef Url="https://raw.githubusercontent.com/Haltroy/Yopad/main/Extensions/[Your Name]/[Extension Name]/[Extension Name].htupdate" />
     -->
     
 </root>
