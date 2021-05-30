@@ -42,7 +42,7 @@ Add-ons can include multiple versions and HTUPDATE archs in the same folder. But
 Adding packages to this repository is allowed, but you have to create a pull request to submit packages.
 
  1. Fork this repository online, star with editing the index.yrf files:
-     - Insert this text under `<root>`: `<PackageRef Url="https://raw.githubusercontent.com/Haltroy/Yopad/main/[Add-on type]/[Your name]/[HTUPDATE File Name].htupdate" />`
+     - Insert this text under `<root>`: `<PackageRef Url="https://raw.githubusercontent.com/Haltroy/Yopad/main/[Add-on type]/[Your name]/[Add-on Name]/[HTUPDATE File Name].htupdate" />`
     - **Changing anything else makes your package rejected.**
  2. In your forked repository, create your own folder in add-on folder(s) and put your add-on packages and HTUPDATE there. You can also add screenshots. **You can only play with that folder, you cannot touch anyone else's folders or your package will be rejected.**
  3. Send a pull request to this repository with required information.
