@@ -3,7 +3,7 @@
     <!-- 
         Yopad Experience PAck Index file
         #####################
-        Add your experience pack below, use this example: <PackageRef Url="https://raw.githubusercontent.com/Haltroy/Yopad/main/ExpPack/[Your Name]/[App Name]/[App Name].htupdate" />
+        Add your experience pack below, use this example: <PackageRef Url="https://raw.githubusercontent.com/Haltroy/Yopad/main/ExpPack/[Your Name]/[PAck Name]/[Pack Name].htupdate" />
     -->
     
 </root>
