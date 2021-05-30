@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<root>
+    <!-- 
+        Yopad Themes Index file
+        #####################
+        Add your theme below 
+    -->
+    <PackageRef Url="https://raw.githubusercontent.com/Haltroy/Yopad/main/Theme/Haltroy/YorotSolid/YorotSolid.htupdate" />
+</root>
