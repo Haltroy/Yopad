@@ -3,7 +3,7 @@
     <!-- 
         Yopad Themes Index file
         #####################
-        Add your theme below, use this example: <PackageRef Url="https://raw.githubusercontent.com/Haltroy/Yopad/main/Theme/[Your Name]/[App Name]/[App Name].htupdate" />
+        Add your theme below, use this example: <PackageRef Url="https://raw.githubusercontent.com/Haltroy/Yopad/main/Theme/[Your Name]/[Theme Name]/[Theme Name].htupdate" />
     -->
     
 </root>
