@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16"?>
+<root>
+    <!-- 
+        Yopad Main Index file
+        #####################
+        DO NOT ADD YOUR ADD-ON HERE.
+        ADD YOUR ADD-ON TO THE OTHER INDEX.YRF FILE
+        INSIDE OF THE CATEGORY FOLDERS.
+        SIMPLY EDITING THIS FILE RESULTS IN ADD-ON REFUSAL.
+    -->
+    <Ref Name="Themes" Url="https://raw.githubusercontent.com/Haltroy/Yopad/main/Themes/index.yrf" />
+    <Ref Name="Apps" Url="https://raw.githubusercontent.com/Haltroy/Yopad/main/Apps/index.yrf" />
+    <Ref Name="Extensions" Url="https://raw.githubusercontent.com/Haltroy/Yopad/main/Extensions/index.yrf" />
+    <Ref Name="Languages" Url="https://raw.githubusercontent.com/Haltroy/Yopad/main/Languages/index.yrf" />
+    <Ref Name="WebEngines" Url="https://raw.githubusercontent.com/Haltroy/Yopad/main/WebEngines/index.yrf" />
+    <Ref Name="ExpPack" Url="https://raw.githubusercontent.com/Haltroy/Yopad/main/ExpPack/index.yrf" />
+</root>
