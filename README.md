@@ -49,7 +49,7 @@ Adding packages to this repository is allowed, but you have to create a pull req
     - In title: `[NEW] [Add-on type] - [Your add-on name]`.
     - Description is optional.
  4. Moderating team will review your pull request. IF your package passes tests, then it will be merged to main system. 
-    - We check if your add-on complies with our [Terms of Service](http://wiki.haltroy.com/index.php/Yopad_Terms_of_Service).
+    - We check if your add-on complies with our [Terms of Service](https://haltroy.com/blog/yopad-terms-of-service/).
     - We test and look the code of your add-on to test if this add-on contains or is malicious.
  5. Your add-on appears on Yorot and any flavor.
  6. (Optional) Remove your forked repository from rpository settings. **Only do this if your add-on is merged.**
