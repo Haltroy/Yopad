@@ -8,9 +8,44 @@
         INSIDE OF THE CATEGORY FOLDERS.
         SIMPLY EDITING THIS FILE RESULTS IN ADD-ON REFUSAL.
     -->
-    <Ref Name="Themes" Url="https://raw.githubusercontent.com/Haltroy/Yopad/main/Themes/index.yrf" />
-    <Ref Name="Apps" Url="https://raw.githubusercontent.com/Haltroy/Yopad/main/Apps/index.yrf" />
-    <Ref Name="Extensions" Url="https://raw.githubusercontent.com/Haltroy/Yopad/main/Extensions/index.yrf" />
+    <Ref Name="Themes" Url="https://raw.githubusercontent.com/Haltroy/Yopad/main/Themes/index.yrf">
+        <Category Name="Black/White" CodeName="bw" />
+        <Category Name="Multi-color" CodeName="mc" />
+        <Category Name="Red" CodeName="red" />
+        <Category Name="Pink" CodeName="pink" />
+        <Category Name="Orange" CodeName="orange" />
+        <Category Name="Brown" CodeName="brown" />
+        <Category Name="Yellow" CodeName="yellow" />
+        <Category Name="Green" CodeName="green" />
+        <Category Name="Purple" CodeName="purple" />
+        <Category Name="Blue" CodeName="blue" />
+    </Ref>
+    <Ref Name="Apps" Url="https://raw.githubusercontent.com/Haltroy/Yopad/main/Apps/index.yrf">
+        <Category Name="Accessibility" CodeName="access" />
+        <Category Name="Blogging" CodeName="blog" />
+        <Category Name="Developer Tools" CodeName="devtools" />
+        <Category Name="Fun" CodeName="fun" />
+        <Category Name="News & Weather" CodeName="nw" />
+        <Category Name="Photos" CodeName="photos" />
+        <Category Name="Productivity" CodeName="product" />
+        <Category Name="Search Tools" CodeName="searchtools" />
+        <Category Name="Shopping" CodeName="shop" />
+        <Category Name="Social & Communication" CodeName="social" />
+        <Category Name="Sports" CodeName="sports" />
+    </Ref>
+    <Ref Name="Extensions" Url="https://raw.githubusercontent.com/Haltroy/Yopad/main/Extensions/index.yrf">
+        <Category Name="Accessibility" CodeName="access" />
+        <Category Name="Blogging" CodeName="blog" />
+        <Category Name="Developer Tools" CodeName="devtools" />
+        <Category Name="Fun" CodeName="fun" />
+        <Category Name="News & Weather" CodeName="nw" />
+        <Category Name="Photos" CodeName="photos" />
+        <Category Name="Productivity" CodeName="product" />
+        <Category Name="Search Tools" CodeName="searchtools" />
+        <Category Name="Shopping" CodeName="shop" />
+        <Category Name="Social & Communication" CodeName="social" />
+        <Category Name="Sports" CodeName="sports" />
+    </Ref>
     <Ref Name="Languages" Url="https://raw.githubusercontent.com/Haltroy/Yopad/main/Languages/index.yrf" />
     <Ref Name="WebEngines" Url="https://raw.githubusercontent.com/Haltroy/Yopad/main/WebEngines/index.yrf" />
     <Ref Name="ExpPack" Url="https://raw.githubusercontent.com/Haltroy/Yopad/main/ExpPack/index.yrf" />
