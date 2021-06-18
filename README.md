@@ -3,13 +3,48 @@
 This repository is only for dstributing Yopad pakcages, if you want to see the source codes of Yopad, see [Official Yorot Repository](https://github.com/Haltroy/Yorot) or any flavor repository.
 
 ## Usage
-**Yo**rot **Pa**ckage **D**istribution Service and Yorot Store will look for this repository for installing, searching and upgrading packages.
+`Yo`rot `Pa`ckage `D`istribution Service and Yorot Store will look for this repository for installing, searching and upgrading packages.
 
-This repositroy includes all Yorot add-ons such as:
+This repositroy includes all Yorot add-ons and a list of categories such as:
  - Themes
+   - Uncategorized = `((leave empty))`
+   - Black/White = `bw`
+   - Multi-color = `mc`
+   - Red = `red`
+   - Pink = `pink`
+   - Orange = `orange`
+   - Brown = `brown`
+   - Yellow = `yellow`
+   - Green = `green`
+   - Blue = `blue`
+   - Purple = `purple`
  - Extensions
+   - Uncategorized = `((leave empty))`
+   - Accessibility = `access`
+   - Blogging = `blog`
+   - Developer Tools = `devtools`
+   - Fun = `fun`
+   - News & Weather = `nw`
+   - Photos = `photos`
+   - Productivity = `product`
+   - Search Tools = `searchtools`
+   - Shopping = `shop`
+   - Social & Communication = `social`
+   - Sports = `sports`
  - Web Engines
  - Apps
+   - Uncategorized = `((leave empty))`
+   - Accessibility = `access`
+   - Blogging = `blog`
+   - Developer Tools = `devtools`
+   - Fun = `fun`
+   - News & Weather = `nw`
+   - Photos = `photos`
+   - Productivity = `product`
+   - Search Tools = `searchtools`
+   - Shopping = `shop`
+   - Social & Communication = `social`
+   - Sports = `sports`
  - Languages
  - Experience Packs
 
@@ -43,7 +78,8 @@ Add-ons can include multiple versions and HTUPDATE archs in the same folder. But
 Adding packages to this repository is allowed, but you have to create a pull request to submit packages.
 
  1. Fork this repository online, star with editing the index.yrf files:
-     - Insert this text under `<root>`: `<PackageRef Url="https://raw.githubusercontent.com/Haltroy/Yopad/main/[Add-on type]/[Your name]/[Add-on Name]/[HTUPDATE File Name].htupdate" />`
+     - Insert this text under `<root>`: `<PackageRef Url="https://raw.githubusercontent.com/Haltroy/Yopad/main/[Add-on type]/[Your name]/[Add-on Name]/[HTUPDATE File Name].htupdate" />` 
+     - You can add `Category` attribute with multiple categories. See the add-on list for category code names.
     - **Changing anything else makes your package rejected.**
  2. In your forked repository, create your own folder in add-on folder(s) and put your add-on packages and HTUPDATE there. You can also add screenshots. **You can only play with that folder, you cannot touch anyone else's folders or your package will be rejected.**
  3. Send a pull request to this repository with required information.
