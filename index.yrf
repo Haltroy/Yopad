@@ -8,6 +8,10 @@
         INSIDE OF THE CATEGORY FOLDERS.
         SIMPLY EDITING THIS FILE RESULTS IN ADD-ON REFUSAL.
     -->
+    <Name>Yopad Official Repository</Name>
+    <CodeName>com.haltroy.yopad</CodeName>
+    <Expire>300</Expire>
+    <Description>The official Yopad repository.</Description>
     <Ref Name="Themes" Url="https://raw.githubusercontent.com/Haltroy/Yopad/main/Themes/index.yrf">
         <Category Name="Black/White" CodeName="bw" />
         <Category Name="Multi-color" CodeName="mc" />
