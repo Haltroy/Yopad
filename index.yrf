@@ -29,12 +29,12 @@
         <Category Name="Blogging" CodeName="blog" />
         <Category Name="Developer Tools" CodeName="devtools" />
         <Category Name="Fun" CodeName="fun" />
-        <Category Name="News & Weather" CodeName="nw" />
+        <Category Name="News &amp; Weather" CodeName="nw" />
         <Category Name="Photos" CodeName="photos" />
         <Category Name="Productivity" CodeName="product" />
         <Category Name="Search Tools" CodeName="searchtools" />
         <Category Name="Shopping" CodeName="shop" />
-        <Category Name="Social & Communication" CodeName="social" />
+        <Category Name="Social &amp; Communication" CodeName="social" />
         <Category Name="Sports" CodeName="sports" />
     </Ref>
     <Ref Name="Extensions" Url="https://raw.githubusercontent.com/Haltroy/Yopad/main/Extensions/index.yrf">
@@ -42,12 +42,12 @@
         <Category Name="Blogging" CodeName="blog" />
         <Category Name="Developer Tools" CodeName="devtools" />
         <Category Name="Fun" CodeName="fun" />
-        <Category Name="News & Weather" CodeName="nw" />
+        <Category Name="News &amp; Weather" CodeName="nw" />
         <Category Name="Photos" CodeName="photos" />
         <Category Name="Productivity" CodeName="product" />
         <Category Name="Search Tools" CodeName="searchtools" />
         <Category Name="Shopping" CodeName="shop" />
-        <Category Name="Social & Communication" CodeName="social" />
+        <Category Name="Social &amp; Communication" CodeName="social" />
         <Category Name="Sports" CodeName="sports" />
     </Ref>
     <Ref Name="Languages" Url="https://raw.githubusercontent.com/Haltroy/Yopad/main/Languages/index.yrf" />
