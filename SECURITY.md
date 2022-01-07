@@ -7,8 +7,18 @@ All add-ons must comply these conditions:
  - All add-ons must be tested in a safe environment, preferebly with virtual machines and virtual private networks or proxies.
  - All add-on PRs must be checked if the author did change someone else's stuff. Authors can only change their own add-on folders related with their GitHub usernames. If Author changes the username on GitHub, they need to create a new folder instead.
  - All add-ons must be checked for allowing anything illegal in any country. 
- - All add-ons must be checked for any sensitive problem (such as flashing lights or offensive language) and must contain badges for that purpose.
+ - All add-ons must be checked for any inappropriate problem (pornography or offensive language) and must contain the NSFW tag in index.xml reference.
+ - All add-ons must only use this GitHub repository's URLs and/or any allowed mirrors.
+ - All add-ons must include this GitHub repository's URLs and it should be before the other mirrors.
 
 ## Reporting a Vulnerability
 
 To report vulnerability, faulty or malicious add-on, create an issue talking about the add-on with reason and what should we do about it. We'll report on your issue back and try our best to solve it.
+
+## Mirrors
+Your add-on's Foster file can include mirrors to another place except this GitHub repository. Those URLs will also be checked for safety.
+We allow these third party URLs in our repository:
+ - Google Drive
+ - Microsoft OneDrive
+ - ((more will be added over time))
+

@@ -81,17 +81,19 @@ Add-ons can include multiple versions and Foster Archs in the same folder. But t
 Adding packages to this repository is allowed, but you have to create a pull request to submit packages.
 
  1. Fork this repository, star with editing the index.yrf files inside the add-on type (ex. Themes, Apps etc.) folders:
-     - Insert this text under `<root>`: `<PackageRef Url="[Add-on type]/[Your name]/[Add-on Name]/" />` 
-     - You can add `Category` attribute with multiple categories. See the add-on list for category code names. Example: `<PackageRef Url="[Add-on type]/[Your name]/[Add-on Name]/" Category="[Category]" />`
+     - Insert this text under `<root>`: `<PackageRef Url="[Your name]/[Add-on Name]/" />` 
+     - You can add `Category` attribute with multiple categories. See the add-on list for category code names. Example: `<PackageRef Url="[Your name]/[Add-on Name]" Category="[Category]" />`
+	 - You can mark your Add-on as inappropriate with `NSFW="true"` attribute. Example: `<PackageRef Url="[Your name]/[Add-on Name]" Category="[Category]" NSFW="true" />`
     - **Changing anything else makes your package rejected.**
- 2. In your forked repository, create your own folder in add-on folder(s) and put your add-on packages and Foster file there. You can also add screenshots. **You can only play with that folder, you cannot touch anyone else's folders or your package will be rejected.**
-**NOTE**: You can use another URL for mirrors but we recommend putting your file insde that folder just in case.
+ 2. In your forked repository, create your own folder in add-on folder(s), create another fodler inside your own folder for the add-on itself and put your add-on packages and Foster file there. You can also add screenshots. **You can only play with that folder, you cannot touch anyone else's folders without their consent or your package will be rejected.**
+**NOTE**: You can use another URL for mirrors but we recommend putting your file inside that folder just in case. Also, the other mirror URLs must be allowed to use. See [SECURITY - Mirrors](https://github.com/Haltroy/Yopad/blob/main/SECURITY.md#mirrors) 
  3. Send a pull request to this repository with required information.
     - In title: `[NEW] [Add-on type] - [Your add-on name]`.
     - Description is optional.
  4. Moderating team will review your pull request. If your package passes tests, then it will be merged to main system. 
     - We check if your add-on complies with our [Security Policy](https://github.com/Haltroy/Yopad/blob/main/SECURITY.md).
     - We test and look the code of your add-on to test if this add-on contains malicious stuff or is malicious.
+	- We check if your add-on is appropriate
  5. Your add-on appears on Yorot and any flavor.
  6. (Optional) Remove your forked repository from repository settings. **Only do this if your pull request is merged.**
 
@@ -112,8 +114,8 @@ You can create a repository similar to this one, but you can't add that reposito
 Adding a custom repository to user's Yopad is simple an can be done in 2 ways:
 
  1. Console:
-    - `yopad repos add [URL to raw text location fo your repository's root index.yrf file]`
-    - Example: `yopad repos add https://raw.githubusercontent.com/Haltroy/Yopad/main/index.yrf`
+    - `yopad repos add [URL to raw text location fo your repository's root index.xml file]`
+    - Example: `yopad repos add https://raw.githubusercontent.com/Haltroy/Yopad/main/index.xml`
  2.  Yopad:
     1. Open Yopad and click the hamburger icon on the left.
     2. Select "Manage repositories..." and then click "Add new..."
